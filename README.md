@@ -23,7 +23,7 @@ The Player has an Inventory.
 
 ## Viewable Universe
 
-For want of a better model, the player will be able to see up to 255 positions in each compass direction - what I'm calling "the fog of char". It's an arbitrary limitation, and one that will probably come back to bite us later, but for now the viewable area a player can see will be no more than square all possible combinations make (from N255/W255 to S255/E255), ala:
+For want of a better model, the player will be able to see up to 255 positions in each compass direction - what I'm calling "the fog of char". It's an arbitrary limitation, and one that will probably come back to bite us later, but for now the viewable area a player can see will be no more than a square made of all possible N-S/E-W pairs (from N255/W255 to S255/E255), ala:
 
 ```
 N255/W255───    │
